@@ -85,6 +85,9 @@ osascript /path/to/battery_alert.scpt
 1. Open the compiled `.scpt` file in **Script Editor**.
 2. Manually reinsert emojis.
 3. Save and re-run the script.
+4. Refer to the image below to see how the final compiled script should look in Script Editor.
+![Emoji fix in Notification](../images/emoji_fix.png)
+
 
 ### ❌ **Issue: Script does not run on startup**
 🔹 **Fix:**
