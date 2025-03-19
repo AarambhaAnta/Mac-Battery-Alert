@@ -2,7 +2,7 @@
 on checkBattery()
     try
         -- Get battery percentage
-        set batteryInfo to do shell script "pmset -g batt | grep -o '[0-9]*% | head -1"
+        set batteryInfo to do shell script "pmset -g batt | grep -o '[0-9]*%' | head -1"
         set batteryPercentage to text 1 through -2 of batteryInfo -- Remove the "%" symbol
         set batteryPercentage to batteryPercentage as integer -- Convert to number
 
