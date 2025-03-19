@@ -78,5 +78,5 @@ This command retrieves **current battery percentage & charging status**.
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it!
+This project is licensed under the [**MIT License**](LICENSE). Feel free to use, modify, and distribute it!
 
